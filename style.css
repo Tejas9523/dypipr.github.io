@@ -82,7 +82,7 @@ nav a {
 }
 
 .bottom {
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     height: max-content;
     background-color: rgb(170, 255, 0);
@@ -260,15 +260,16 @@ iframe {
 }
 
 .about {
-
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Comic Sans MS';
     width: 600px;
     padding-top: 90px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
     color: white;
     font-size: 25px;
-    float: left;
-    padding-bottom: 50px;
+    /* float: left; */
+    /* padding-bottom: 50px; */
 }
 
 .dsaii {
@@ -289,7 +290,7 @@ iframe {
     }
 }
 
-.zoom{
+.zoom {
     animation: wipe-enter 1s;
 }
 
@@ -301,4 +302,24 @@ iframe {
     50% {
         transform: scale(1);
     }
+}
+
+.team {
+    float: left;
+    padding: 0%;
+    width: fit-content;
+    height: fit-content;
+    /* background-color:rgba(135, 207, 235, 0.374); */
+    padding-top: 90px;
+}
+
+.member {
+    border-radius: 10px;
+    height: 250px;
+    float: left;
+    margin: 60px;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 15px 2px black;
 }
